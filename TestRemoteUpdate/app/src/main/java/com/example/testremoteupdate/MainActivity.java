@@ -14,9 +14,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        new AppUpdater(this)
-//                .setUpdateFrom(UpdateFrom.JSON)
-//                .setUpdateJSON("https://raw.githubusercontent.com/javiersantos/AppUpdater/master/app/update-changelog.json")
-//                .start();
+        new AppUpdater(this)
+                .setUpdateFrom(UpdateFrom.JSON)
+                .setUpdateJSON("https://raw.githubusercontent.com/dcolazo/TesteRemoteUpdate/main/TestRemoteUpdate/update-changelog.json")
+                .start();
     }
 }
