@@ -18,7 +18,5 @@ public class MainActivity extends AppCompatActivity {
                 .setUpdateFrom(UpdateFrom.JSON)
                 .setUpdateJSON("https://raw.githubusercontent.com/dcolazo/TesteRemoteUpdate/main/TestRemoteUpdate/update-changelog.json")
                 .start();
-
-
     }
 }
